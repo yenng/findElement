@@ -11,7 +11,7 @@ typedef struct{
 
 struct Element_t{
   Element *next;
-  int *data;
+  void *data;
 };
 Element *elementCreate(void *data);
 List *listCreate();

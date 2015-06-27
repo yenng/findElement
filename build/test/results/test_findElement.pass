@@ -2,13 +2,21 @@
 :source:
   :path: test
   :file: test_findElement.c
-:successes: []
+:successes:
+- :test: test_find_Element
+  :line: 9
+  :message: ''
+- :test: test_find_Element_string
+  :line: 44
+  :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 0
-  :passed: 0
+  :total: 2
+  :passed: 2
   :failed: 0
   :ignored: 0
 :stdout:
+- 1 $
+- "111 \x11one"
 - ''
